@@ -1,0 +1,100 @@
+/* Order Flex */
+
+.order {
+    padding: 118px 60px;
+    background-image:
+     linear-gradient(rgba(47, 48, 58, 0.4),
+     rgba(47, 48, 58, 0.4)),
+     url(/image/back-mob.jpeg);
+    background-size: cover;
+    background-image: center;
+    background-repeat: no-repeat;
+  }
+
+  @media (min-device-pixel-ratio: 2) and (max-width:767px),
+  (min-resolution: 192dpi) and (max-width:767px),
+  (min-resolution: 2dppx) and (max-width:767px) {
+  .order {
+    background-image:linear-gradient(rgba(47, 48, 58, 0.4),
+     rgba(47, 48, 58, 0.4)),
+     url(/image/back-mob@2x.jpeg);
+  }
+}
+
+
+  .order .mainorder {
+    width: 360px;
+    text-align: center;
+  }
+
+  .order .mainorder__efect {
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-colorwh);
+    margin-bottom: 30px;
+  }
+
+    
+
+@media screen and (min-width:768px) {
+
+  .order {
+    background-image:
+     linear-gradient(rgba(47, 48, 58, 0.4),
+     rgba(47, 48, 58, 0.4)),
+     url(/image/back-tablet.jpeg);
+  }
+
+  .order .mainorder {
+    width: 696px;
+    text-align: center;
+  }
+  .order .mainorder__efect {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-colorwh);
+    margin-bottom: 30px;
+  }
+}
+  @media (min-device-pixel-ratio: 2) and (min-width:768px),
+  (min-resolution: 192dpi) and (min-width:768px),
+  (min-resolution: 2dppx) and (min-width:768px) {
+  .order {
+    background-image:linear-gradient(rgba(47, 48, 58, 0.4),
+     rgba(47, 48, 58, 0.4)),
+     url(/image/back-tablet@2x.jpeg);
+  }
+}
+
+  
+
+
+@media screen and (min-width:1200px) {
+
+  .order {
+    background-image:
+     linear-gradient(rgba(47, 48, 58, 0.4),
+     rgba(47, 48, 58, 0.4)),
+     url(/image/background-desk.jpeg);
+  }
+
+  @media (min-device-pixel-ratio: 2) and (max-width:1200px),
+  (min-resolution: 192dpi) and (max-width:1200px),
+  (min-resolution: 2dppx) and (max-width:1200px) {
+  .order {
+    background-image:linear-gradient(rgba(47, 48, 58, 0.4),
+     rgba(47, 48, 58, 0.4)),
+     url(/image/background-desk.jpeg@2x.jpeg);
+  }
+}
+}
+
+

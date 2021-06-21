@@ -1,0 +1,24 @@
+
+
+.container__head{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.17;
+    color: var(--text-colorbl);
+    margin-bottom: 30px;    
+    text-align: center;
+}
+
+@media  screen and (min-width:1200px) {
+
+
+.container__head{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    color: var(--text-colorbl);
+    margin-bottom: 50px;    
+    text-align: center;
+}
+    
+}
