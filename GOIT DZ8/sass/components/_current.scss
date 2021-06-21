@@ -1,0 +1,16 @@
+.headernav__link.headernav__current::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -31px;
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: var(--hover-colorblu);
+    border-radius: 2px;
+  }
+  .container .headernav__link.headernav__current::after {
+    position: relative;
+    color: var(--hover-colorblu);
+
+  }

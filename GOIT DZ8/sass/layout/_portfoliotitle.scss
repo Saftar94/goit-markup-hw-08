@@ -1,0 +1,38 @@
+.section-portfolio{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.container .filters{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 25px;
+    list-style: none;
+    color: var(--text-colorgre);    
+}
+.filters .filters__radio{
+    margin-bottom: 15px;
+}
+
+
+.filters .filters__radio:not(:last-child){
+    margin-right: 8px;
+}
+
+@media screen and(min-width:768px) {
+
+.container .filters{
+    justify-content: center;
+    margin-bottom: 15px;
+    
+}
+    
+}
+
+@media screen and(min-width:1200px) {
+
+    .container .filters{
+        margin-bottom: 35px;
+        
+    }
+}

@@ -1,0 +1,127 @@
+/* ==================== Наша команда ===================== */
+
+.team {
+  background-color: var(--port-hedrgr);
+  padding: 60px 0;
+}
+
+  .teamcard {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin-left: calc(-1*var(--marg-cart));
+
+  }
+
+
+  .teamcard .teamcard__body {
+    flex-basis: calc(100%/1 - var(--marg-cart));
+    margin-left: var(--marg-cart);
+  }
+    .teamcard__body {
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: var(--text-colorwh);
+    list-style: none;
+    color: var(--text-colorgre);
+    margin-bottom: 30px;
+  }
+  .teamcard__body:last-child{
+    margin-bottom: 0px;
+  }
+    .cardperson {
+    text-align: center;
+    padding: 30px 0;
+  }
+
+    .cardperson__name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--text-colorbl);
+    margin-bottom: 10px;
+  }
+
+    .cardperson__footer {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--text-colorgre);
+    margin-bottom: 16px;
+  }
+.iconteam__title .iconteam__body:focus .iconteam__iconsvg {
+    fill: var(--text-colorwh);
+  }
+  
+
+
+  
+  /* ========================================= */
+
+  @media screen and (min-width:768px){
+
+  .teamcard {
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      margin-left: calc(-1*var(--marg-cart));
+  }
+
+  .teamcard .teamcard__body {
+    flex-basis: calc(100%/2 - var(--marg-cart));
+    margin-left: var(--marg-cart);
+  }
+
+  .teamcard__body:last-child{
+    margin-bottom: 30px;
+  }
+    
+  }
+
+  @media screen and (min-width:1200px){
+     
+.team {
+    background-color: var(--port-hedrgr);
+    padding: 94px 0;
+  }
+  .teamcard {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-left: calc(-1*var(--marg-cart));
+  }
+  .teamcard .teamcard__body {
+    flex-basis: calc(100%/4 - var(--marg-cart));
+    margin-left: var(--marg-cart);
+  }
+  .teamcard__body {
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: var(--text-colorwh);
+    list-style: none;
+    color: var(--text-colorgre);
+  }
+  
+  .cardperson {
+    text-align: center;
+    padding: 30px 0;
+  }
+  .cardperson__name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--text-colorbl);
+    margin-bottom: 10px;
+  }
+  .cardperson__footer {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--text-colorgre);
+    margin-bottom: 16px;
+  }
+  
+
+  }

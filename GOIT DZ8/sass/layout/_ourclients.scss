@@ -1,0 +1,120 @@
+/* ====================== Наши клиенты =================== */
+
+.clients-section {
+    padding: 60px 0;
+  }
+
+.client {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-right: calc(-1*var(--marg-cart));
+
+  }
+  .client__title {
+    width: 210px;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: calc(100%/2 - var(--marg-cart));
+    margin-bottom: var(--marg-cart);
+    border-radius: 4%;
+  }
+
+  .client__title:nth-child(2n){
+    margin-left: var(--marg-cart);
+  }
+
+  .client__title:nth-last-child(-n+2){
+    margin-bottom: 0;
+
+  }
+
+
+    .client__iconbody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    fill: var(--icon-colo);
+    border: 1px solid var(--icon-colo);
+    border-radius: 4px;
+    transition-property: fill, border-color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+  }
+
+
+  .client__iconbody:hover, .client__iconbody:focus {
+    fill: var(--hover-colorblu);
+    border-color: var(--hover-colorblu);
+  }
+
+  @media screen and(min-width:768px){
+
+    .client {
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      margin-left: calc(-1 * var(--marg-cart));
+      margin-right: 0;
+    } 
+    
+
+    .client__title {
+      width: 210px;
+      height: 92px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-basis: calc(100%/3 - var(--marg-cart));
+      margin-bottom: var(--marg-cart);
+      margin-left:var(--marg-cart);
+      border-radius: 4%;
+    }
+  
+    
+  }
+
+  @media screen and(min-width:1200px){
+
+.clients-section {
+    padding: 94px 0;
+  }
+
+
+  .client__title {
+    width: 170px;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: calc(100%/6 - var(--marg-cart));
+    margin-left: var(--marg-cart);
+    border-radius: 4%;
+  }
+  .client__iconbody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    fill: var(--icon-colo);
+    border: 1px solid var(--icon-colo);
+    border-radius: 4px;
+    transition-property: fill, border-color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+  }
+  .client__iconbody:hover, .client__iconbody:focus {
+    fill: var(--hover-colorblu);
+    border-color: var(--hover-colorblu);
+  }
+
+
+  }
+
+
+
