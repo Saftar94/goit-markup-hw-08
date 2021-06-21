@@ -6,6 +6,7 @@
     height: 100vh;
     background-color: var(--text-colorwh);
     overflow: auto;
+    z-index: 1000;
 
     opacity: 0;
     visibility: hidden;
@@ -14,6 +15,7 @@
     transition-duration: 250ms;
 
 }
+
 .mobile-headermenu.is-open {
     opacity: 1;
     visibility: visible;
@@ -129,6 +131,10 @@ padding-right: 10px;
 letter-spacing: 0.02em;
 color: var(--hover-colorblu);
 }
+.mobile-headersocial__main:first-child{
+    padding-left: 0px;
+}
+
 
 .mobile-headersocial__links:not(:first-child){
     border-left:  1px solid rgba(33, 33, 33, 0.2);

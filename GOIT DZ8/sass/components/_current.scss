@@ -15,3 +15,8 @@
     border-radius: 2px;
 
   }
+  .mobile-headermenu__link.mobile-headermenu__current{
+
+    position: relative;
+    color: var(--hover-colorblu);
+  }

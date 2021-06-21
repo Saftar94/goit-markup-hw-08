@@ -226,6 +226,11 @@ img {
   border-radius: 2px;
 }
 
+.mobile-headermenu__link.mobile-headermenu__current {
+  position: relative;
+  color: var(--hover-colorblu);
+}
+
 .iconteam {
   display: flex;
   justify-content: center;
@@ -317,6 +322,7 @@ img {
   height: 100vh;
   background-color: var(--text-colorwh);
   overflow: auto;
+  z-index: 1000;
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
@@ -431,6 +437,10 @@ img {
   padding-right: 10px;
   letter-spacing: 0.02em;
   color: var(--hover-colorblu);
+}
+
+.mobile-headersocial__main:first-child {
+  padding-left: 0px;
 }
 
 .mobile-headersocial__links:not(:first-child) {
@@ -808,7 +818,6 @@ img {
 }
 
 .order .mainorder {
-  width: 360px;
   text-align: center;
 }
 
@@ -1284,6 +1293,7 @@ img {
 }
 
 .footer-form__email {
+  width: 100%;
   height: 50px;
   background-color: var(--sect-colordbl);
   border: 1px solid rgba(255, 255, 255, 0.3);
