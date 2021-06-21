@@ -1,3 +1,8 @@
+.container .headernav__link.headernav__current {
+  position: relative;
+  color: var(--hover-colorblu);
+}
+
 .headernav__link.headernav__current::after {
     content: "";
     position: absolute;
@@ -8,9 +13,5 @@
     height: 4px;
     background-color: var(--hover-colorblu);
     border-radius: 2px;
-  }
-  .container .headernav__link.headernav__current::after {
-    position: relative;
-    color: var(--hover-colorblu);
 
   }
