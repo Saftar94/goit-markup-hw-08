@@ -5,7 +5,7 @@
     background-image:
      linear-gradient(rgba(47, 48, 58, 0.4),
      rgba(47, 48, 58, 0.4)),
-     url(/image/back-mob.jpeg);
+     url(./image/back-mob.jpeg);
     background-size: cover;
     background-image: center;
     background-repeat: no-repeat;
@@ -17,7 +17,7 @@
   .order {
     background-image:linear-gradient(rgba(47, 48, 58, 0.4),
      rgba(47, 48, 58, 0.4)),
-     url(/image/back-mob@2x.jpeg);
+     url(./image/back-mob@2x.jpeg);
   }
 }
 
@@ -46,7 +46,7 @@
     background-image:
      linear-gradient(rgba(47, 48, 58, 0.4),
      rgba(47, 48, 58, 0.4)),
-     url(/image/back-tablet.jpeg);
+     url(./image/back-tablet.jpeg);
   }
 
   .order .mainorder {
@@ -70,7 +70,7 @@
   .order {
     background-image:linear-gradient(rgba(47, 48, 58, 0.4),
      rgba(47, 48, 58, 0.4)),
-     url(/image/back-tablet@2x.jpeg);
+     url(./image/back-tablet@2x.jpeg);
   }
 }
 
@@ -83,7 +83,7 @@
     background-image:
      linear-gradient(rgba(47, 48, 58, 0.4),
      rgba(47, 48, 58, 0.4)),
-     url(/image/background-desk.jpeg);
+     url(./image/background-desk.jpeg);
   }
 
   @media (min-device-pixel-ratio: 2) and (max-width:1200px),
@@ -92,7 +92,7 @@
   .order {
     background-image:linear-gradient(rgba(47, 48, 58, 0.4),
      rgba(47, 48, 58, 0.4)),
-     url(/image/background-desk.jpeg@2x.jpeg);
+     url(./image/background-desk.jpeg@2x.jpeg);
   }
 }
 }
