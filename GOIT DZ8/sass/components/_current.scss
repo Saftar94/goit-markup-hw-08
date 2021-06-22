@@ -7,7 +7,7 @@
     content: "";
     position: absolute;
     left: 0;
-    bottom: -31px;
+    bottom: -33px;
     display: block;
     width: 100%;
     height: 4px;
@@ -17,6 +17,14 @@
   }
   .mobile-headermenu__link.mobile-headermenu__current{
 
-    position: relative;
     color: var(--hover-colorblu);
+  }
+
+  @media screen and (max-width: 1199px){
+
+    .headernav__link.headernav__current::after {
+      bottom: -38px;
+
+    }
+    
   }

@@ -92,6 +92,7 @@
 
 
   .footer-form__email::placeholder {
+    position: fixed;
     font-family: var(--text-body);
     font-style: normal;
     font-weight: 400;
