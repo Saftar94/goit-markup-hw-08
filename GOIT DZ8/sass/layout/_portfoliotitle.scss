@@ -1,6 +1,6 @@
 .section-portfolio{
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .container .filters{
     display: flex;
@@ -23,16 +23,21 @@
 
 .container .filters{
     justify-content: center;
-    margin-bottom: 15px;
-    
+    margin-bottom: 30px;   
 }
-    
+
+
 }
 
 @media screen and(min-width:1200px) {
+    .section-portfolio{
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
 
     .container .filters{
-        margin-bottom: 35px;
+        margin-bottom: 34px;
         
     }
+
 }

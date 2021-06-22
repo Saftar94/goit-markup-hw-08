@@ -667,6 +667,7 @@ img {
   padding-bottom: 16px;
   padding-top: 16px;
   position: relative;
+  border-bottom: 1px solid var(--bord-head);
 }
 
 .contact {
@@ -1406,8 +1407,8 @@ img {
 }
 
 .section-portfolio {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .container .filters {
@@ -1430,27 +1431,28 @@ img {
 @media screen and (min-width: 768px) {
   .container .filters {
     justify-content: center;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
   }
 }
 
 @media screen and (min-width: 1200px) {
+  .section-portfolio {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
   .container .filters {
-    margin-bottom: 35px;
+    margin-bottom: 34px;
   }
 }
 
 /* сетка карточки */
 .portfolio-hero {
-  display: flex;
   flex-wrap: wrap;
   list-style: none;
-  margin-top: calc(-1 * var(--marg-cart));
   margin-left: calc(-1 * var(--marg-cart));
 }
 
 .portfolio-hero .portfolio-hero__title {
-  flex-basis: calc(100%/1 - var(--marg-cart));
   margin-top: var(--marg-cart);
   margin-left: var(--marg-cart);
   cursor: pointer;
@@ -1525,6 +1527,12 @@ img {
 }
 
 @media screen and (min-width: 768px) {
+  .portfolio-hero {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-left: 0;
+  }
   .portfolio-hero .portfolio-hero__title {
     flex-basis: calc(100%/2 - var(--marg-cart));
   }
