@@ -834,7 +834,7 @@ img {
 
 @media screen and (min-width: 768px) {
   .order {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./image/back-tablet.jpeg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../image/back-tablet.jpeg);
   }
   .order .mainorder {
     width: 696px;
@@ -854,19 +854,19 @@ img {
 
 @media (min-device-pixel-ratio: 2) and (min-width: 768px), (min-resolution: 192dpi) and (min-width: 768px), (min-resolution: 2dppx) and (min-width: 768px) {
   .order {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./image/back-tablet@2x.jpeg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../image/back-tablet@2x.jpeg);
   }
 }
 
 @media screen and (min-width: 1200px) {
   .order {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./image/background-desk.jpeg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../image/background-desk.jpeg);
   }
 }
 
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2) and (max-width: 1200px), screen and (min-width: 1200px) and (min-resolution: 192dpi) and (max-width: 1200px), screen and (min-width: 1200px) and (min-resolution: 2dppx) and (max-width: 1200px) {
   .order {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./image/background-desk.jpeg@2x.jpeg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../image/background-desk.jpeg@2x.jpeg);
   }
 }
 
