@@ -16,8 +16,8 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 450px;
-    height: 609px;
+    width: 80%;
+    height: 90%;
     background-color: var(--text-colorwh);
     transform: translate(-50%, -50%);
   }
@@ -33,6 +33,15 @@
   }
   .modal__close:hover, .modal__close:focus {
     fill: var(--hover-colorblu);
+  }
+
+  @media screen and(min-width:480px) {
+    .modal__block {
+ 
+      width: 450px;
+      height: 609px;
+    }
+    
   }
 
   @media screen and(min-width:1200px) {

@@ -349,8 +349,12 @@ img {
 }
 
 .mobile-headermenu__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   position: relative;
-  padding: 48px 83px 48px 40px;
+  padding: 48px 40px;
+  height: 100%;
 }
 
 .mobile-headermenu__close-button {
@@ -372,10 +376,6 @@ img {
   fill: var(--hover-colorblu);
 }
 
-.mobile-headermenu__hero {
-  margin-bottom: 302px;
-}
-
 .mobile-headermenu__item {
   margin-bottom: 32px;
 }
@@ -394,7 +394,7 @@ img {
   color: var(--hover-colorblu);
 }
 
-.mobile-headercontact {
+.mobile-header__contact {
   margin-bottom: 64px;
 }
 
@@ -476,8 +476,8 @@ img {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 450px;
-  height: 609px;
+  width: 80%;
+  height: 90%;
   background-color: var(--text-colorwh);
   transform: translate(-50%, -50%);
 }
@@ -495,6 +495,13 @@ img {
 
 .modal__close:hover, .modal__close:focus {
   fill: var(--hover-colorblu);
+}
+
+@media screen and (min-width: 480px) {
+  .modal__block {
+    width: 450px;
+    height: 609px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -806,7 +813,7 @@ img {
 
 @media screen and (min-width: 1200px) {
   .header-wrappe.container {
-    width: 100%;
+    width: 1200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -861,7 +868,7 @@ img {
   max-width: 360px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 480px) {
   .order {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../image/back-tablet.jpeg);
   }
@@ -870,13 +877,28 @@ img {
   }
 }
 
-@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-width: 768px) and (min-resolution: 192dpi) and (min-width: 768px), screen and (min-width: 768px) and (min-resolution: 2dppx) and (min-width: 768px) {
+@media screen and (min-width: 480px) and (min-device-pixel-ratio: 2) and (max-width: 767px), screen and (min-width: 480px) and (min-resolution: 192dpi) and (max-width: 767px), screen and (min-width: 480px) and (min-resolution: 2dppx) and (max-width: 767px) {
   .order {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../image/back-tablet@2x.jpeg);
   }
 }
 
-@media screen and (min-width: 768px) and (min-width: 1200px) {
+@media screen and (min-width: 480px) and (min-width: 768px) {
+  .order {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../image/back-tablet.jpeg);
+  }
+  .order .mainorder {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 480px) and (min-width: 768px) and (min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-width: 480px) and (min-width: 768px) and (min-resolution: 192dpi) and (min-width: 768px), screen and (min-width: 480px) and (min-width: 768px) and (min-resolution: 2dppx) and (min-width: 768px) {
+  .order {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../image/back-tablet@2x.jpeg);
+  }
+}
+
+@media screen and (min-width: 480px) and (min-width: 768px) and (min-width: 1200px) {
   .order .mainorder__efect {
     font-size: 44px;
     line-height: 1.36;
@@ -891,7 +913,7 @@ img {
   }
 }
 
-@media screen and (min-width: 768px) and (min-width: 1200px) and (min-device-pixel-ratio: 2) and (max-width: 1200px), screen and (min-width: 768px) and (min-width: 1200px) and (min-resolution: 192dpi) and (max-width: 1200px), screen and (min-width: 768px) and (min-width: 1200px) and (min-resolution: 2dppx) and (max-width: 1200px) {
+@media screen and (min-width: 480px) and (min-width: 768px) and (min-width: 1200px) and (min-device-pixel-ratio: 2) and (max-width: 1200px), screen and (min-width: 480px) and (min-width: 768px) and (min-width: 1200px) and (min-resolution: 192dpi) and (max-width: 1200px), screen and (min-width: 480px) and (min-width: 768px) and (min-width: 1200px) and (min-resolution: 2dppx) and (max-width: 1200px) {
   .order {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../image/background-desk.jpeg@2x.jpeg);
   }
@@ -1320,7 +1342,7 @@ img {
   outline: none;
   border-radius: 4px;
   margin-bottom: 20px;
-  padding: 15px 295px 15px 16px;
+  padding: 15px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--text-colorwh);
 }
@@ -1357,7 +1379,7 @@ img {
     outline: none;
     border-radius: 4px;
     margin-right: 12px;
-    padding: 15px 295px 15px 16px;
+    padding: 15px;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: var(--text-colorwh);
   }
@@ -1393,7 +1415,7 @@ img {
     outline: none;
     border-radius: 4px;
     margin-right: 12px;
-    padding: 15px 295px 15px 16px;
+    padding: 15px;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: var(--text-colorwh);
   }
@@ -1465,6 +1487,7 @@ img {
 }
 
 .portfolio-hero__links {
+  height: 100%;
   text-decoration: none;
   display: block;
   list-style: none;
