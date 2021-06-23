@@ -57,10 +57,6 @@
 }
 
 
-// .mobile-headermenu__hero{
-//     margin-bottom: 302px;
-// }
-
 .mobile-headermenu__item{
     margin-bottom: 32px;
 }
@@ -114,9 +110,9 @@ color: var(--text-colorgre);
 }
 
 .mobile-headersocial{
-    margin-left: 10px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .mobile-headersocial__main{

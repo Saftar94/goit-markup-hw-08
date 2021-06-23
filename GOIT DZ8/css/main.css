@@ -425,9 +425,9 @@ img {
 }
 
 .mobile-headersocial {
-  margin-left: 10px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .mobile-headersocial__main {
