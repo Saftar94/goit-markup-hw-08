@@ -426,7 +426,6 @@ img {
 .mobile-headersocial {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .mobile-headersocial__main {
@@ -447,6 +446,7 @@ img {
 .mobile-headersocial__links:not(:last-child) {
   padding-right: 10px;
   border-right: 1px solid rgba(33, 33, 33, 0.2);
+  margin-right: 10px;
 }
 
 @media screen and (min-width: 768px) {
@@ -886,6 +886,8 @@ img {
 @media screen and (min-width: 1200px) {
   .order {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../image/background-desk.jpeg);
+    height: 600px;
+    padding: 200px 0;
   }
   .order .mainorder {
     text-align: center;
