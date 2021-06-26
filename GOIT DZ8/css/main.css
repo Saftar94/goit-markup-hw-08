@@ -883,11 +883,31 @@ img {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .order {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../image/background-desk.jpeg);
+  }
+  .order .mainorder {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2) and (max-width: 1199px), screen and (min-width: 768px) and (min-resolution: 192dpi) and (max-width: 1199px), screen and (min-width: 768px) and (min-resolution: 2dppx) and (max-width: 1199px) {
+  .order {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../image/background-desk@2x.jpeg);
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .order {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../image/background-desk.jpeg);
     height: 600px;
     padding: 200px 0;
+  }
+  .order .mainorder__efect {
+    font-size: 44px;
+    line-height: 1.32;
+    max-width: 696px;
   }
   .order .mainorder {
     text-align: center;
